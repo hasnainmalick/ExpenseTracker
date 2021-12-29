@@ -1,0 +1,23 @@
+{
+  "name": "expense_tracker",
+  "version": "1.0.0",
+  "description": "backend for expense tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "expense-trackerr": "npm start --prefix expense-trackerr",
+    "dev": "concurrently \"npm run server\" \"npm run expense-trackerr\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasnainmalick/ExpenseTracker.git"
+  },
+  "author": "hasnain malick",
+  "license": "ISC",
+  "bugs": {
+     "url": "https://github.com/hasnainmalick/ExpenseTracker/issues"
+  },
+  "homepage": "https://github.com/hasnainmalick/ExpenseTracker#readme"
+}
